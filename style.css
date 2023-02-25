@@ -492,6 +492,7 @@ section .title::after {
   width: 400px;
   object-fit: cover;
   transition: all 0.3s ease;
+  border-radius: 8px;
 }
 .teams .carousel .card:hover img {
   border-color: #fff;
@@ -525,7 +526,11 @@ section .title::after {
   background: white;
 }
 
-/* achi section styling */
+/* achievement section styling */
+.achievement{
+  background: url("images/achi.avif") no-repeat center;
+  background-size: cover;
+  }
 .achievement .title::after {
     content: "My some achievement show";
   }
